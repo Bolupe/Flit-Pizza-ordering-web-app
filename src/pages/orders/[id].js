@@ -1,6 +1,5 @@
 import styles from '../../styles/Order.module.css';
 import Image from 'next/image';
-// import axios from 'axios';
 import React from 'react'
 
 const Order = ({order}) => {

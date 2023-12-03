@@ -1,7 +1,3 @@
-import dbConnect from "../../../../utilities/mongo";
-import Order from "../../../../Models/Order";
-
-
 const handler = async (req, res) => {
 
     const {method} = req;

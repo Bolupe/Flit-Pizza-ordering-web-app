@@ -1,6 +1,3 @@
-import dbConnect from "../../../../utilities/mongo";
-import Product from "../../../../Models/Products";
-
 export default async function handler(req, res){
     const {
         method, 

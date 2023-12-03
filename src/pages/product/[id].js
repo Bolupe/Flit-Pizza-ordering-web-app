@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import styles from '@/styles/Product.module.css'
-// import axios from 'axios'
 import { addProduct } from '../../../Redux/cartSlice'
 import { useDispatch } from 'react-redux'
 
