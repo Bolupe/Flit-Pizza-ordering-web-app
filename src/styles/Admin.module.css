@@ -1,0 +1,14 @@
+.admin{
+    margin-top: 10rem;
+}
+.edit{
+    background-color: #008000;
+    margin-right: 0.6rem;
+}
+.delete{
+    background-color: #ff0000;
+}
+.delete, .edit{
+    border: 0;
+    color: #fff;
+}

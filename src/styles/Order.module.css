@@ -1,0 +1,72 @@
+/* Styling for the check icon in various states */
+.check i {
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+/* Styling for the 'Done' status */
+.done {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the order wrapper */
+.order_wrapper {
+  margin-top: 10rem;
+}
+
+/* Styling for the 'In Progress' status with animation */
+.inProgress {
+  align-items: center;
+  animation: inProgress 1s ease infinite alternate;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Keyframes for the 'In Progress' animation */
+@keyframes inProgress {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Styling for the payment and delivery wrapper */
+.payDel_wrap {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+/* Styling for the 'Undone' status with reduced opacity */
+.undone {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.3;
+}
+
+/* Styling for the check icon in 'Undone' and 'In Progress' states */
+.undone .check i,
+.inProgress .check i {
+  display: none;
+}
+
+/* Styling for the add to cart wrapper */
+.addToCart_wrap {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 300px;
+  padding: 50px;
+  padding-top: 10px;
+  width: 90%;
+}

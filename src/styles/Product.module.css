@@ -1,0 +1,106 @@
+
+.noPizzas {
+    font-size: 1.5rem;
+    color: #ff0000; /* Red color, you can adjust this to your preference */
+    margin: 20px 0;
+  }
+  
+
+
+/* Styling for the filter button and pizza button */
+.filter_btn,
+.pizza_btn {
+    background: #FBB200;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.3rem 1.7rem;
+}
+
+/* Hover styling for the filter button */
+.filter_btn:hover {
+    background-color: #F22E3E;
+    color: #fff;
+}
+
+/* Styling for the filter result wrapper and sorting result */
+.filterRes_wrap,
+.sortingRes {
+    display: flex;
+}
+
+/* Styling for the filter result wrapper */
+.filterRes_wrap {
+    align-items: center;
+    gap: 10%;
+}
+
+/* Styling for the select dropdown and sorting result */
+.sortingRes p,
+.sortingRes select {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* Styling for the product and single product */
+.product,
+.single_product {
+    margin-top: 12rem;
+}
+
+/* Styling for the review and single item one */
+.review,
+.single_itemOne h1 {
+    font-weight: bold;
+}
+
+/* Styling for the single item two */
+.single_itemTwo {
+    padding-right: 6rem;
+}
+
+/* Styling for the single price */
+.singPrice {
+    color: #F22E3E;
+    font-size: 1.2rem;
+}
+
+/* Styling for the sizes, ingredients wrap, and size */
+.sizes,
+.ingredients_wrap,
+.size {
+    align-items: center;
+    display: flex;
+    gap: 8%;
+}
+
+/* Styling for the number and select */
+.number,
+.select select {
+    border: 1px solid #C1C1C1;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 1rem;
+    position: absolute;
+}
+
+/* Styling for the sizes */
+.size {
+    position: relative;
+}
+
+/* Styling for the number and .number within .size */
+.size .number,
+.size .number {
+    background-color: #F22E3E;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 5px;
+    position: absolute;
+    right: -20px;
+    top: -5px;
+}

@@ -1,0 +1,56 @@
+/* Styling for the add container */
+.add_container {
+    display: flex;
+    margin-top: 10rem;
+}
+
+/* Styling for the add to cart section */
+.addToCart {
+    flex: 1;
+}
+
+/* Styling for the add to cart wrapper */
+.addToCart_wrap {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 300px;
+    padding: 50px;
+    padding-top: 10px;
+    width: 90%;
+}
+
+/* Styling for the cash payment input */
+.cash_payment {
+    background-color: #fff;
+    border: 0;
+    color: teal;
+    font-weight: 500;
+    margin: 0.6rem 0;
+    padding: 2px;
+    width: 100%;
+}
+
+/* Styling for the table section */
+.table {
+    flex: 2;
+}
+
+/* Styling for the table within the table section */
+.table table {
+    border-spacing: 20px;
+}
+
+/* Styling for the title within the add to cart wrapper */
+.addToCart_wrap .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Styling for the total title */
+.total_title {
+    margin-right: 10px;
+}

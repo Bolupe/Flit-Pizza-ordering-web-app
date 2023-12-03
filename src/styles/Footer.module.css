@@ -1,0 +1,71 @@
+/* Styling for the signup button */
+.pizza_btn {
+    background-color: #FBB200;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+/* Hover styling for the signup button */
+.pizza_btn:hover {
+    background-color: #DC4A38;
+}
+
+/* Styling for the social media icons */
+.social .facebook {
+    background-color: #3B579D;
+    border-radius: 5px;
+}
+
+.social .instagram {
+    background-color: #DC4A38;
+    border-radius: 5px;
+}
+
+.social .pinterest {
+    background-color: #CC2127;
+    border-radius: 5px;
+}
+
+.social .twitter {
+    background-color: #2CAAE1;
+    border-radius: 5px;
+}
+
+/* Styling for social media icons */
+.social i {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 0.6rem 0.9rem;
+}
+
+/* Styling for the footer column heading */
+.ft_col h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+/* Styling for the footer column list */
+.ft_col ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for the footer column list items */
+.ft_col ul li {
+    color: #ACAAA5;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+/* Styling for the footer wrapper */
+.ftwrapper {
+    background: #FFFAED;
+    padding: 20px;
+}

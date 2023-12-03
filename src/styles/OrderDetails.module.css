@@ -1,0 +1,53 @@
+/* Styling for the detail container */
+.DetailContainer {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #e5dfdf;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    width: 500px;
+}
+
+/* Styling for the detail item */
+.DetailItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Styling for the detail item label */
+.DetailItem label {
+    margin-bottom: 10px;
+}
+
+/* Styling for the detail item input */
+.DetailItem input {
+    height: 40px;
+}
+
+/* Styling for the detail wrapper */
+.DetailWrapper {
+    align-items: center;
+    background-color: rgba(197, 197, 197, 0.56);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* Styling for the order button */
+.pizza_btn {
+    background: #FBB200;
+    border-radius: 10px;
+    color: #000;
+    font-size: 1.1rem;
+    padding: 0.3rem 1.7rem;
+}

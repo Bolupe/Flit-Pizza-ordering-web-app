@@ -1,0 +1,36 @@
+/* Styling for the error message */
+.error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+/* Styling for the login form */
+.login_form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    width: 100%;
+}
+
+/* Styling for the input fields within the login form */
+.login_form input {
+    padding: 0.5rem;
+    margin: 0.7rem 0;
+    width: 25%;
+}
+
+/* Styling for the button within the login form */
+.login_form button {
+    background-color: teal;
+    border: 0;
+    color: #fff;
+    height: 40px;
+    margin: 0.7rem 0;
+    width: 25%;
+}
+
+/* Styling for the login wrapper */
+.login_wrapper {
+    margin-top: 10rem;
+}
